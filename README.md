@@ -75,7 +75,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/Whallas/netshowme-test-contact-us-page/blob/main/resources/img/screenshot.png)
 
 Laravel test project designed for contracting stage and portfolio. Example of a system with "contact us" function. Every contact request is sended as an email notification to the administrator, this email contains all the form data and the document attached by the user.
 
@@ -232,7 +232,7 @@ Whallas Pimentel - whallaspimnmetel@gmail.com
 [issues-shield]: https://img.shields.io/github/issues/Whallas/netshowme-test-contact-us-page.svg?style=for-the-badge
 [issues-url]: https://github.com/Whallas/netshowme-test-contact-us-page/issues
 [license-shield]: https://img.shields.io/github/license/Whallas/netshowme-test-contact-us-page.svg?style=for-the-badge
-[license-url]: https://github.com/Whallas/netshowme-test-contact-us-page/blob/master/LICENSE.txt
+[license-url]: https://github.com/Whallas/netshowme-test-contact-us-page/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/whallas-pimentel-bezerra
 [product-screenshot]: resources/img/screenshot.png

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactRequestController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('contact_us', ContactRequestController::class)->only('index', 'store');
+
+
+// Route::get('/mailable', function () {
+//     return new \App\Mail\ContactRequestCreatedMail(
+//         \App\Models\ContactRequest::orderByDesc('created_at')->first()
+//     );
+// });

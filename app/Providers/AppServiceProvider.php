@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Models\ContactRequest;
+use App\Models\Contracts\ContactRequest as ContactRequestContract;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +15,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind(ContactRequestContract::class, ContactRequest::class);
     }
 
     /**

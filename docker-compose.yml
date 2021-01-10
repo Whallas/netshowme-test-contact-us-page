@@ -19,7 +19,7 @@ services:
             - sail
         depends_on:
             - mysql
-            - redis
+            - cache
             # - selenium
     # selenium:
     #     image: 'selenium/standalone-chrome'
@@ -41,7 +41,7 @@ services:
             - 'sailmysql:/var/lib/mysql'
         networks:
             - sail
-    redis:
+    cache:
         image: 'redis:alpine'
         ports:
             - '${FORWARD_REDIS_PORT:-6379}:6379'

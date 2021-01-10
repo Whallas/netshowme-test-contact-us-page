@@ -12,3 +12,9 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .vscode
+
+/public/js/
+/public/mix-manifest.json
+/public/img/**/*
+/public/css/
+/public/fonts/

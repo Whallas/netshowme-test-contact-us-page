@@ -58,11 +58,12 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#testing">Testing</a></li>
     <li>
         <a href="#code-overview">Code overview</a>
         <ul>
-            <li><a href="#other-dependencies">Other dependencies</a></li>
-            <li><a href="#folders">Folders</a></li>
+          <li><a href="#other-dependencies">Other dependencies</a></li>
+          <li><a href="#folders">Folders</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
@@ -164,6 +165,14 @@ You must run the queue to listen to the new processes:
 The page can be accessed at http://localhost:8080/contact_us.
 
 After the form is submitted, a notification email will be sent to the system administrative email. Queue is used to queue this process in the background.
+
+
+## Testing
+
+Run the PHPUnit tests
+```sh
+./vendor/bin/sail test
+```
 
 ---
 
